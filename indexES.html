@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="theme-color" content="#6b8e23"> <!-- Color de la barra de dirección en móviles -->
+  <meta name="description" content="Restaurante de comida saludable en Barcelona. Menú ecológico, vegano y sin gluten."> <!-- Para SEO -->  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthy Mood | Comida Saludable</title>
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <meta name="description" content="Restaurante de tapas tradicionales con un toque moderno en el corazón de Barcelona">
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  
+  <!-- logotipo del local -->
+  <!-- Fuentes -->
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="styleES.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-icon">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botón WhatsApp -->
+  <a href="https://wa.me/34932123456" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+        <li><a href="#ubicacion" class="nav-link">Ubicación</a></li>
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#menu" class="nav-link">Menú</a></li>
+        <li><a href="#reservas" class="nav-link">Reservas</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      
+      <div class="nav-extra">
+        <div class="lang-zone">
+          <div class="lang-wrapper">
+            <a href="#" class="lang-btn lang-es">
+              <img src="img/espana.png" alt="Español" />
+              ES
+            </a>
+            <a href="indexCAT.html" class="lang-btn lang-cat">
+              <img src="img/cataluna.png" alt="Català" />
+              CA
+            </a>
+          </div>
+        </div>
+        <a href="#reservas" class="btn-reserva">Reservar</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="inicio";>
+  <div class="hero-content">
+    <h1 data-aos="fade-up" data-aos-delay="300">
+      <span class="highlight">Healthy</span> mood
+    </h1>
+    <p class="subtitle" data-aos="fade-up" data-aos-delay="500">
+      Nutrición consciente, sabores vibrantes
+    </p>
+
+    <div class="hero-btns" data-aos="fade-up" data-aos-delay="700">
+      <a href="#menu" class="btn btn-confirmar">
+        <span class="btn-text">Explorar Menú</span>
+        <span class="btn-icon">→</span>
+      </a>
+      <a href="#reservas" class="btn btn-reservar">
+        <span class="btn-text">Reservar Ahora</span>
+        <span class="btn-icon">⌗</span>
+      </a>
+    </div>
+  </div>
+  <div class="scroller-container">
+  <!-- Banda Superior (izquierda) -->
+  <div class="scroller-band top-band">
+    <div class="scroller-content">
+      <span>AVOCADO TOAST</span>
+      <span>QUINOA BOWL</span>
+      <span>SUPERFOOD SALAD</span>
+      <span>GLUTEN-FREE</span>
+      <span>VEGAN TACOS</span>
+      <span>ORGANIC BOWLS</span>
+      <!-- Duplicado para efecto infinito -->
+      <span>AVOCADO TOAST</span>
+      <span>QUINOA BOWL</span>
+      <span>SUPERFOOD SALAD</span>
+      <span>GLUTEN-FREE</span>
+      <span>VEGAN TACOS</span>
+      <span>ORGANIC BOWLS</span>
+    </div>
+  </div>
+  
+  <!-- Banda Inferior (derecha) -->
+<div class="scroller-band bottom-band">
+  <div class="scroller-content">
+    <span>MATCHA LATTE</span>
+    <span>KOMBUCHA</span>
+    <span>TURMERIC SHOT</span>
+    <span>COLD BREW</span>
+    <span>ALMOND MILK</span>
+    <span>HERBAL TEA</span>
+    <!-- Duplicado -->
+    <span>MATCHA LATTE</span>
+    <span>KOMBUCHA</span>
+    <span>TURMERIC SHOT</span>
+    <span>COLD BREW</span>
+    <span>ALMOND MILK</span>
+    <span>HERBAL TEA</span>
+  </div>
+</div>
+</div>
+</header>
+
+<!-- Ubicación -->
+<section class="location-section" id="ubicacion">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-subtitle shiny-text">¿Dónde estamos?</span>
+      <h2 class="section-title">Ven a visitarnos</h2>
+      <p class="section-description">
+        Encuentra Healthy Mood en el corazón del Eixample, Barcelona.
+      </p>
+    </div>
+    
+    <div class="map-container" data-aos="fade-up" data-aos-delay="200">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.0963637286757!2d2.161065676618429!3d41.39172357129962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f05f0c123b%3A0x56789a1234abcd!2sCarrer%20de%20Mallorca%2C%20123%2C%2008029%20Barcelona!5e0!3m2!1ses!2ses!4v1715378792819!5m2!1ses!2ses"
+        width="100%"
+        height="450"
+        style="border:0; border-radius: var(--border-radius-lg); box-shadow: var(--shadow);"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Ubicación en Google Maps"
+      ></iframe>
+    </div>
+  </div>
+  
+</section>
+
+
+  <!-- Sobre Nosotros -->
+  <section class="about-section" id="nosotros">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text" data-aos="fade-right">
+          <span class="section-subtitle shiny-text">Nuestra Esencia</span>
+          <h2 class="section-title">Más que un restaurante</h2>
+          <p>En <strong>Healthy Mood</strong>, creemos que la alimentación es la base de una vida plena. Cada ingrediente es seleccionado por su calidad nutricional y su origen sostenible, trabajando con agricultores locales y proveedores ecológicos.</p>
+          <p>Nuestros chefs transforman estos superalientes en experiencias gourmet, sin gluten refinado, azúcares añadidos ni procesados. Porque comer bien debería ser un placer, no un sacrificio.</p>
+          <div class="signature">
+            <span>Con amor,</span>
+            <span class="signature-name">El equipo de Healthy Mood</span>
+          </div>
+        </div>
+        <div class="about-images" data-aos="fade-left">
+          <div class="about-images">
+            <img src="img/sobre-nosotros.jpg" alt="Interior del restaurante La Tapita Feliz" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Especialidades -->
+  <section class="specialties-section" id="menu">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-subtitle shiny-text">Descubre</span>
+        <h2 class="section-title">Nuestras Creaciones</h2>
+        <p class="section-description">Platos que narran la historia de nuestra tierra</p>
+      </div>
+      
+      <div class="specialties-grid">
+        <!-- Plato 1 -->
+        <div class="specialty-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="card-image">
+            <img src="img/ensaladas-detox.jpg" alt="Croquetas Caseras">
+            <div class="card-badge">Recomendación</div>
+          </div>
+          <div class="card-content">
+            <div class="card-text-left">
+              <h3>Ensalada Detox</h3>
+              <p>Mezcla de kale, espinacas, aguacate, granada y nueces con aderezo de limón y jengibre. Rico en antioxidantes y fibra.</p>
+            </div>
+            <div class="card-footer">
+              <span class="price">6,50 €</span>
+              <button class="btn-add">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Plato 2 -->
+        <div class="specialty-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="card-image">
+            <img src="img/bowl-quinoa.jpg" alt="Jamón Ibérico">
+            <div class="card-badge">Especialidad</div>
+          </div>
+          <div class="card-content">
+            <div class="card-text-left">
+              <h3>Bowl de Quinoa</h3>
+              <p>Quinoa orgánica con garbanzos, calabaza asada, espinacas y tahini. Acompañado de germinados y semillas de girasol.</p>
+            </div>
+            <div class="card-footer">
+              <span class="price">12,00 €</span>
+              <button class="btn-add">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Plato 3 -->
+        <div class="specialty-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="card-image">
+            <img src="img/wrap-vegano.avif" alt="Tortilla Española">
+            <div class="card-badge">Clásico</div>
+          </div>
+          <div class="card-content">
+            <div class="card-text-left">
+              <h3>Wrap Vegano</h3>
+              <p>Tortilla de trigo integral rellena de hummus, pepino, zanahoria, remolacha y brotes tiernos. Perfecto para llevar.</p>
+            </div>
+            <div class="card-footer">
+              <span class="price">7,00 €</span>
+              <button class="btn-add">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Plato 4 -->
+        <div class="specialty-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="card-image">
+            <img src="img/smoothie.jpg" alt="Pimientos del Padrón">
+            <div class="card-badge">Tradicional</div>
+          </div>
+          <div class="card-content">
+            <div class="card-text-left">
+              <h3>Smoothie Verde</h3>
+              <p>Batido de espinacas, piña, plátano y leche de almendras. Energético y bajo en calorías. Opción con proteína vegana.</p>
+            </div>
+            <div class="card-footer">
+              <span class="price">5,50 €</span>
+              <button class="btn-add">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Plato 5 -->
+        <div class="specialty-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="card-image">
+            <img src="img/gazpacho.jpg" alt="Gazpacho">
+            <div class="card-badge">Fresco</div>
+          </div>
+          <div class="card-content">
+            <div class="card-text-left">
+              <h3>Crema de Calabaza</h3>
+              <p>Crema suave de calabaza butternut con un toque de jengibre y coco. Sin lactosa, servida con croutons de pan integral.</p>
+            </div>
+            <div class="card-footer">
+              <span class="price">8,50 €</span>
+              <button class="btn-add">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Plato 6 -->
+        <div class="specialty-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="card-image">
+            <img src="img/poke-salmon.jpg" alt="Pulpo a la gallega">
+            <div class="card-badge">Picante</div>
+          </div>
+          <div class="card-content">
+            <div class="card-text-left">
+              <h3>Poke Bowl de Salmón</h3>
+              <p>Salmón fresco marinado en salsa teriyaki, arroz integral, aguacate, edamame y algas. Aderezado con sésamo tostado.</p>
+            </div>
+            <div class="card-footer">
+              <span class="price">7,00 €</span>
+              <button class="btn-add">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-subtitle shiny-text">Voces de nuestros clientes</span>
+        <h2 class="section-title">Experiencias Compartidas</h2>
+      </div>
+      
+      <div class="testimonials-slider">
+        <div class="testimonial active">
+          <div class="testimonial-content">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"Mi bowl favorito en la ciudad. Ingredientes frescos y llenos de sabor. ¡Me siento genial después de comer aquí!"</p>
+            <div class="client-info">
+              <img src="img/perfil.jpg" alt="Cliente">
+              <div>
+                <h4>María González</h4>
+                <span>Google Reviews</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"Auténtico sabor español. La tortilla es como la hacía mi abuela. Recomiendo reservar porque siempre está lleno."</p>
+            <div class="client-info">
+              <img src="img/perfil.jpg" alt="Cliente">
+              <div>
+                <h4>Carlos Mendoza</h4>
+                <span>TripAdvisor</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>"Excelente relación calidad-precio. El jamón estaba espectacular y el personal muy atento. Ideal para turistas que quieren probar tapas auténticas."</p>
+            <div class="client-info">
+              <img src="img/perfil.jpg" alt="Cliente">
+              <div>
+                <h4>Sophie Martin</h4>
+                <span>Yelp</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonials-nav">
+        <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+        <div class="testimonial-dots"></div>
+        <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservas -->
+  <section class="reservation-section" id="reservas">
+    <div class="container">
+      <div class="reservation-content">
+        <div class="reservation-form">
+          <span class="section-subtitle shiny-text">Reserva tu experiencia</span>
+          <h2 class="section-title">Disfruta de nuestra mesa</h2>
+          <p>Lunes a Viernes: 12:00 - 23:00<br>Sábado y Domingo: 11:00 - 00:00</p>
+          
+          <form id="reservaForm">
+            <div class="form-group">
+              <input type="text" placeholder="Nombre completo" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Correo electrónico" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" placeholder="Teléfono" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="date" placeholder="Fecha" required>
+              </div>
+              <div class="form-group">
+                <input type="time" placeholder="Hora" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <select required>
+                  <option value="" disabled selected>Personas</option>
+                  <option value="1">1 Persona</option>
+                  <option value="2">2 Personas</option>
+                  <option value="3">3 Personas</option>
+                  <option value="4">4 Personas</option>
+                  <option value="5">5+ Personas</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Notas adicionales (alergias, celebraciones...)"></textarea>
+            </div>
+            <button type="submit" class="btn-confirmar">
+              <span class="btn-confirmar-texto">Confirmar Reserva</span>
+              <span class="btn-confirmar-icono">
+                <i class="fas fa-calendar-check"></i>
+              </span>
+            </button>
+          </form>
+        </div>
+        
+        <div class="reservation-contact-info">
+          <h3>Contacto Directo</h3>
+          <p><i class="fas fa-phone"></i> 932 123 456</p>
+          <p><i class="fas fa-envelope"></i> info@healthymood.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Carrer de Mallorca, 123, Barcelona</p>
+          
+          <div class="contact-hours">
+            <h4>Horario</h4>
+            <p>Lunes - Viernes: 12:00 - 23:00</p>
+            <p>Sábado - Domingo: 11:00 - 00:00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contacto">
+    <div class="container">
+      <div class="footer-content">
+        <!-- Columna 1 - Logo y descripción -->
+        <div class="footer-col" data-aos="fade-up">
+          <a href="indexES.html" class="footer-logo">
+            <span>Healthy</span>Mood
+          </a>
+          <p>Nutrición consciente en el corazón de Barcelona. Comprometidos con tu bienestar y la sostenibilidad.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Newsletter"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <!-- Columna 2 - Enlaces rápidos actualizados -->
+        <div class="footer-col" data-aos="fade-up" data-aos-delay="100">
+          <h3>Descubre</h3>
+          <ul>
+            <li><a href="#menu"><i class="fas fa-leaf"></i> Menú Saludable</a></li>
+            <li><a href="#sobre-nosotros"><i class="fas fa-seedling"></i> Nuestra Filosofía</a></li>
+            <li><a href="#reservas"><i class="fas fa-calendar-check"></i> Reservas</a></li>
+            <li><a href="#ubicacion"><i class="fas fa-map-marker-alt"></i> Visítanos</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 3 - Horario -->
+        <div class="footer-col" data-aos="fade-up" data-aos-delay="200">
+          <h3>Horario</h3>
+          <ul>
+            <li><i class="fas fa-clock"></i> Lunes - Viernes: 8:00 - 22:00</li>
+            <li><i class="fas fa-clock"></i> Sábado - Domingo: 9:00 - 23:00</li>
+            <li><i class="fas fa-moon"></i> Brunch los fines de semana</li>
+          </ul>
+        </div>
+
+        <!-- Columna 4 - Contacto -->
+        <div class="footer-col" data-aos="fade-up" data-aos-delay="300">
+          <h3>Contacto</h3>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> Carrer del Wellbeing, 123</li>
+            <li><i class="fas fa-phone"></i> 933 456 789</li>
+            <li><i class="fas fa-envelope"></i> info@healthymood.com</li>
+            <li><i class="fas fa-leaf"></i> Pedidos a domicilio disponibles</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer inferior -->
+      <div class="footer-bottom">
+        <p>&copy; 2023 Healthy Mood. Todos los derechos reservados.</p>
+        <div class="footer-links">
+          <a href="#">Política de sostenibilidad</a>
+          <a href="#">Aviso legal</a>
+          <a href="#">Trabaja con nosotros</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="scriptES.js"></script>
+</body>
+</html>
